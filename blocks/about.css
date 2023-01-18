@@ -36,7 +36,8 @@
   -webkit-box-orient: horizontal;
   -webkit-box-direction: horizontal;
   -webkit-flex-flow: row;
-  flex-row: row;
+  -ms-flex-flow: row;
+  flex-flow: row;
   position: relative;
   box-sizing: border-box;
   justify-content: space-between;
