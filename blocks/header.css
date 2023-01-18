@@ -11,6 +11,7 @@
   padding-left: 80px;
   padding-right: 80px;
   position: relative;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -67,6 +68,8 @@
 }
 
 .header__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 646px;
   height: 568px;
@@ -95,9 +98,15 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 45px;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
   position: absolute;
   left: 0px;
@@ -105,5 +114,6 @@
   padding-right: 80px;
   bottom: 40px;
   width: 100%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
