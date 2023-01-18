@@ -1,76 +1,41 @@
 .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #0a2750;
   background-image: url(../images/background_menu.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   color: white;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-line-pack: distribute;
-  align-content: space-around;
-  width: 100%;
-  padding-top: 100px;
   padding-bottom: 100px;
 }
-
 .menu__title {
+  align-self: center;
+  margin-top: 100px;
+  max-width: 780px;
+  margin-bottom: 24px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  max-width: 780px;
-  margin: auto;
-  margin-bottom: 24px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
-
 .menu__subtitle {
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  max-width: 780px;
+  margin-bottom: 100px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  max-width: 780px;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin: auto;
-  margin-bottom: 100px;
 }
-
 .menu__cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-wrap: wrap;
+  flex-direction: row;
   flex-wrap: wrap;
-  width: 1300px;
+  justify-content: center;
   gap: 100px;
 }
