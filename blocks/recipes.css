@@ -8,43 +8,41 @@
 }
 
 .recipes__title {
-    margin: 0 0 24px;
-    max-width: 580px;
-    font-size: 44px;
-    font-family: "Inter", "Arial", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 52px;
-    padding-top: 100px;
-
+  margin: 0 0 24px;
+  max-width: 580px;
+  font-size: 44px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52px;
+  padding-top: 100px;
 }
 
 .recipes__video-item {
-    width: 480px;
-    margin-left: 20px;
-    margin-right: 20px;
+  width: 480px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .recipes__subtitle {
-    font-family: "Noto Serif", "Times new roman", serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 80px;
-    max-width: 438px;
-    margin-top: 0;
-
+  font-family: "Noto Serif", "Times new roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 80px;
+  max-width: 438px;
+  margin-top: 0;
 }
 
 .recipes__videos {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
 }
 
 .recipes__iframe {
@@ -53,20 +51,18 @@
   border: none;
   position: relative;
   z-index: 1;
-  background color: #ccc;
-
-
+  background-color: #ccc;
 }
 
 .recipes__video-caption {
-    display: flex;
-    justify-content: space-between;
-    font-family: "Inter", "Arial", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 215px;
-    width: 100%;
-    margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 215px;
+  width: 100%;
+  margin-top: 24px;
 }

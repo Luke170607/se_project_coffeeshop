@@ -17,7 +17,6 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  border: none;
 }
 
 .form__label {
@@ -57,7 +56,6 @@
   margin: 0;
   padding: 0;
   border: none;
-  border-radius: 4px;
   margin-bottom: 32px;
   height: 60px;
   font-family: "Inter", Arial, sans-serif;
