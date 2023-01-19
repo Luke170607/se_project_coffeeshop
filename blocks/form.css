@@ -1,5 +1,4 @@
 .form {
-  max-width: 385px;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-orient: vertical;
@@ -12,7 +11,7 @@
 }
 
 .form__fieldset {
-  max-width: 385px;
+  width: 385px;
   color: #838383;
   border: none;
   padding: 0;
@@ -29,7 +28,6 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 100%;
 }
 
 .form__label {
