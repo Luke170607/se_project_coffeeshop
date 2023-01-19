@@ -18,7 +18,7 @@
 .header__title {
   color: black;
   max-width: 729px;
-  margin: 202 0 0 80px;
+  margin-top: 202px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,18 +33,16 @@
   line-height: 72px;
   z-index: 0;
   padding-left: 0;
-  padding-top: 80px;
 }
 
 .header__span-accent {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
   display: block;
   color: #2f80ed;
-  margin-top: 80px;
 }
 
 .header__description {
@@ -65,6 +63,7 @@
   padding-top: 28px;
   z-index: 1;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .header__image {
@@ -84,7 +83,7 @@
   padding: 0;
 }
 
-.header__paragaph {
+.header__paragaph-hours {
   font-family: "Inter", "Times New Roman" serif;
   font-style: normal;
   font-weight: 500;

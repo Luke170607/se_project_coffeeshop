@@ -58,7 +58,7 @@
 }
 
 .about__circle_animation_blurred {
-  animation: pulse 4.5s infinite;
+  animation: pulse 1.3s infinite ease-in-out 0s infinite;
   -webkit-animation: pulsate 1.3s ease-in-out 0s infinite;
 }
 
@@ -73,7 +73,8 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   max-width: 660px;
-  margin: 119px 80px 173px auto;
+  margin-top: 119px;
+  margin-bottom: 173px;
   color: white;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: normal;
@@ -90,7 +91,7 @@
   line-height: 52px;
   max-width: 251px;
   z-index: 1;
-  margin: 100px 0 0 80px;
+  margin-top: 100px;
   color: white;
 }
 
