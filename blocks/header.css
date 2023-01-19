@@ -18,7 +18,7 @@
 .header__title {
   color: black;
   max-width: 729px;
-  margin-top: 202px;
+  margin: 202px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,13 +83,17 @@
   padding: 0;
 }
 
-.header__paragaph-hours {
+.header__paragaph {
   font-family: "Inter", "Times New Roman" serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  margin: 0;
+}
+
+.header__address {
   margin: 0;
 }
 

@@ -50,12 +50,25 @@
   border: 1px solid #838383;
   height: 60px;
   width: 100%;
-  font-size: 20px;
   margin-left: auto;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   font-family: "Inter", Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.form__input::placeholder {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
 
 .form__input::-webkit-input-placeholder {
@@ -86,15 +99,6 @@
 }
 
 .form__input::-ms-input-placeholder {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  color: #838383;
-}
-
-.form__input::placeholder {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
