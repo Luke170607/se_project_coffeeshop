@@ -17,6 +17,7 @@
   font-weight: 500;
   line-height: 52px;
   padding-top: 100px;
+  padding-left: 80px;
 }
 
 .recipes__video-item {
@@ -32,6 +33,7 @@
   margin-bottom: 80px;
   max-width: 438px;
   margin-top: 0;
+  padding-left: 80px;
 }
 
 .recipes__videos {
